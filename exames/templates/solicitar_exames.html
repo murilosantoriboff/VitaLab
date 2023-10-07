@@ -40,9 +40,9 @@
                     {% for exame in solicitacao_exames %}
                         <div style="font-size: 20px; font-weight: bold">
                             {% if exame.disponivel %}
-                                <img src="{% static 'exames/img/check.png' %}">
+                                <img src="{% static 'exame/img/check.png' %}">
                             {% else %}
-                                <img src="{% static 'exames/img/exit.png' %}">
+                                <img src="{% static 'exame/img/exit.png' %}">
                             {% endif %}
                             {{exame.nome}}
                             <span class="previa-preco">
