@@ -35,3 +35,4 @@ def proxy_pdf(request, exame_id):
 
     response = exame.resultado.open()
     return FileResponse(response)
+
