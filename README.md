@@ -1,6 +1,6 @@
 <h1>VitaLab</h1>
 
-> Status: Developing ⚠️
+> Status: Finished
 
 ### VitaLab it's a website planned to menage medical process, with the doctor and client connection, where i builted with Python and Django for Back-end and HTLM 5, CSS 3, JavaScript for Front-End.
 
